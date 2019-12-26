@@ -7,27 +7,40 @@ body
 .topnav 
 {
   overflow: hidden;
-  background-color: #333;
+  background-color: #B24730; /*  #CF3817*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*height: 70px;*/
+  text-align: center;
+
+  
+
 }
 
 .topnav a 
 {
-  float: left;
-  color: #f2f2f2;
+  /*float: left;     this may need to be put back in*/
+  color: #f2f2f2; /*grey*/
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: inline-block
 }
 
 .topnav a:hover 
 {
-  background-color: #ddd;
+  background-color: #ddd;/*black#D73613*/
   color: black;
+  /*height: 70px;*/
+  text-align: center;
 }
 
 .topnav a.active 
 {
-  background-color: #4CAF50;
+  background-color: #3D2924; /*green #4CAF50*/
   color: white;
+  /*height: 70px;*/
+  text-align: center;
+  display: inline-block
 }
+
