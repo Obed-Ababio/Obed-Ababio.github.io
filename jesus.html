@@ -30,6 +30,21 @@
 		    left: 50%;
 		    transform: translatex(-50%);
 		}
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    
 		</style>
 		
 		<link rel="icon" href="mdb_package/img/mdb-favicon.ico" type="image/x-icon">
@@ -126,11 +141,10 @@
 
 		<!-- CONTENT STARTS HERE-->
 
-		<div class="col-xs-6 featured-block">
-		   <div class="box location-map">
-		     <a href="/contact-us/"><img src="images/jesus.jpg" class="img-responsive"></a>
-		  </div>
+		<div class="imgbox">
+		    <img class="center-fit" src='jesus.jpg'>
 		</div>
+		
 
 		<div class="et_pb_text_inner">
 			<p>Who He is and What His Love means to us</p>
